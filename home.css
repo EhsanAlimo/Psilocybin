@@ -1,0 +1,104 @@
+.nav_bar_block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    background-color:lightgray;
+    border-radius: 10px;
+    border-bottom: 1px solid rgb(9, 75, 173);
+}
+.nav_bar {
+    /* border-bottom: 1px solid rgb(9, 75, 173); */
+
+}
+.nav_bar_logo {
+    width: 100px;
+    height: 100px;
+}
+img {
+    width: 100%;
+    height: 100%;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav_bar_about {
+    /* font-size: 30px; */
+}
+
+.nav_bar_community {
+    /* background-color: yellow; */
+
+}
+
+.nav_bar_growing {
+
+
+}
+
+.nav_bar_memories {
+
+
+}
+
+.nav_bar_login {
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+.nav_bar_login button {
+    border-radius: 10px;
+    transition: background-color 2s ease;
+    /* transition: scale 1s ease; */
+}
+
+.nav_bar_login button:hover {
+    background-color: lightblue;
+    transform: scale(1.2);
+}
+.container_top {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+.container_top  h1{
+    text-transform: uppercase;
+    color: rgb(14, 116, 233);
+}
+.container_top h2{
+    font-style: italic;
+    color: rgb(5, 73, 129)
+}
+
+.chemical {
+    height: 250px;
+    width: 350px;
+}
+.container h1 {
+    text-transform: uppercase;
+    color: rgb(15, 73, 197);
+}
+ul {
+    list-style-type:none
+}
+.table_list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.table_list_nav h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(10, 105, 93);
+}
+.table_contenet {
+    background-image: linear-gradient(white, rgb(4, 163, 216));
+    padding-bottom: 4px;
+}
+
