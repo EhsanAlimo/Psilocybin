@@ -24,28 +24,43 @@ a {
     color: black;
 }
 
-.nav_bar_about {
+.nav_bar_about  p{
     /* font-size: 30px; */
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(4, 59, 160, 0.815);
 }
 
-.nav_bar_community {
+.nav_bar_community p{
     /* background-color: yellow; */
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(4, 59, 160, 0.815);
+}
+
+.nav_bar_growing p{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(4, 59, 160, 0.815);
+
 
 }
 
-.nav_bar_growing {
-
-
-}
-
-.nav_bar_memories {
-
+.nav_bar_memories p{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(4, 59, 160, 0.815);
 
 }
 
 .nav_bar_login {
     margin-right: 10px;
     border-radius: 10px;
+    font-size: 20px;
 }
 
 .nav_bar_login button {
@@ -101,4 +116,14 @@ ul {
     background-image: linear-gradient(white, rgb(4, 163, 216));
     padding-bottom: 4px;
 }
+.overview {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* width: 100vw; */
+    margin: 10px 60px 0 60px;
+    
 
+
+}
